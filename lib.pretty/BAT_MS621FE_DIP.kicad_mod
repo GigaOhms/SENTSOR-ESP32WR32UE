@@ -1,0 +1,196 @@
+(footprint "BAT_MS621FE_DIP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BATTERY LITHIUM 3V RECHARGE")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "ee1f3f5d-bf66-4062-b708-4dd46f48ff73")
+		(effects
+			(font
+				(size 0.801087 0.801087)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_MS621FE_DIP"
+		(at 0.745012 1.494026 0)
+		(layer "F.Fab")
+		(uuid "5c633642-5804-4405-a405-bb939f368974")
+		(effects
+			(font
+				(size 0.64018 0.64018)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c31c090-6d3d-4b9d-8238-fa53a5bde6d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96f10e9d-9d9d-4c01-ab38-bf2e09e935fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.4 -1.4)
+		(end -1.7 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35081849-63f6-4a0e-a4ec-6680437eff11")
+	)
+	(fp_line
+		(start -3.4 0.1)
+		(end -3.4 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bf64f30-d676-435c-921e-a21d44275f1a")
+	)
+	(fp_line
+		(start -2.8 0.1)
+		(end -3.4 0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa0fa550-cf8a-4140-80cf-fc05b4959c03")
+	)
+	(fp_line
+		(start 1.7 -1.4)
+		(end 3.4 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3a70e42-9271-47c7-be15-33ebdb7d6ed0")
+	)
+	(fp_line
+		(start 2.35 0.65)
+		(end -2.35 0.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f4bd03c-70c4-41a3-999b-ff43d9767cf4")
+	)
+	(fp_line
+		(start 3.4 -1.4)
+		(end 3.4 0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f529b682-c4e8-4923-8e5c-594727c836d4")
+	)
+	(fp_line
+		(start 3.4 0.1)
+		(end 2.9 0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab5cceec-aeda-44d1-b3bb-c0676b9911a1")
+	)
+	(fp_arc
+		(start -2.35 0.65)
+		(mid -2.688909 0.468198)
+		(end -2.8 0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ec323fd-346d-4a86-ae19-e031eae09359")
+	)
+	(fp_arc
+		(start 2.9 0.1)
+		(mid 2.738909 0.488909)
+		(end 2.35 0.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfc072f4-1f5a-41d4-9e2c-930a9c8126b1")
+	)
+	(fp_line
+		(start -2.8 0.1)
+		(end 2.9 0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90662b56-f6d0-43d2-b8e6-97c9b2087d55")
+	)
+	(fp_line
+		(start 1.7 -1.4)
+		(end -1.7 -1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "393d7249-967a-47d8-aba8-be5fed624960")
+	)
+	(pad "+" thru_hole circle
+		(at 0.75 -1.4)
+		(size 1.2192 1.2192)
+		(drill 0.7112)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "018ff950-f8af-41c1-9301-30d38444e9f6")
+	)
+	(pad "-" thru_hole circle
+		(at -0.75 -1.4)
+		(size 1.2192 1.2192)
+		(drill 0.7112)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "944814c7-cf2d-4342-b4d8-eae104e6d2d7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodel/MS621FE.step"
+		(offset
+			(xyz 0 1.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -180)
+		)
+	)
+)
