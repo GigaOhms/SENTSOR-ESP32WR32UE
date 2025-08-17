@@ -8710,6 +8710,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 245.11) (xy 264.16 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136419f6-04b2-43fd-8fc7-d6fdf39f07f1")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.23) (xy 138.43 62.23)
 		)
 		(stroke
@@ -8790,7 +8800,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 250.19) (xy 261.62 250.19)
+			(xy 254 250.19) (xy 264.16 250.19)
 		)
 		(stroke
 			(width 0)
@@ -15023,7 +15033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RGB_DOUT"
+		(property "Value" "GND"
 			(at 80.518 67.564 90)
 			(effects
 				(font
@@ -15032,7 +15042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "TestPoint_Pad_D0.7mm"
 			(at 73.66 71.12 0)
 			(effects
 				(font
@@ -17279,7 +17289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.99 53.0352 0)
 			(effects
 				(font
@@ -17415,7 +17425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "TestPoint_Pad_D0.7mm"
 			(at 44.45 191.77 0)
 			(effects
 				(font
@@ -17724,6 +17734,73 @@
 			(project "SENTSOR CORE ESP32"
 				(path "/5e6dd74d-2c01-41ea-aa13-bdd7206128e8"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53cff00b-c725-4492-8e68-68df4b87f928")
+		(property "Reference" "TP4"
+			(at 266.7 240.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32K"
+			(at 266.7 243.0779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:TestPoint_Pad_D0.7mm"
+			(at 269.24 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cbb0af9-de2b-4fc7-af70-d032b76b2b92")
+		)
+		(instances
+			(project "SENTSOR CORE ESP32"
+				(path "/5e6dd74d-2c01-41ea-aa13-bdd7206128e8"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -19689,7 +19766,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 145.034 203.2 90)
 			(effects
 				(font
@@ -20569,7 +20646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.504 91.694 90)
 			(effects
 				(font
@@ -21409,7 +21486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RGB_DOUT"
+		(property "Value" "VIN"
 			(at 80.518 54.864 90)
 			(effects
 				(font
@@ -21418,7 +21495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "TestPoint_Pad_D0.7mm"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -21484,7 +21561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "TestPoint_Pad_D0.7mm"
 			(at 374.65 115.57 0)
 			(effects
 				(font
@@ -21685,7 +21762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "lib:TestPoint_Pad_D0.7mm"
 			(at 214.63 242.57 0)
 			(effects
 				(font
@@ -21808,7 +21885,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 45.72 66.675 0)
 			(effects
 				(font
@@ -21883,7 +21960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.244 59.944 90)
 			(effects
 				(font
