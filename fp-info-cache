@@ -1,4 +1,4 @@
-26435013909109754
+26436769319354359
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105643,6 +105643,13 @@ SW_2P_TS-1088-AR02016 3x4x2.5mm
 0
 2
 2
+lib
+TestPoint_Pad_D0.7mm
+SMD pad as test Point, diameter 0.7mm
+test point SMD pad
+0
+1
+1
 lib
 microSD_CARD_HYC80-TF08-xxx
 

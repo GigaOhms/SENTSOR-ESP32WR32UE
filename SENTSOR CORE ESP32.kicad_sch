@@ -12668,7 +12668,7 @@
 		)
 		(uuid "5f977cb5-2c6b-4ced-b8f8-f5a17e6abeaa")
 	)
-	(label "DRT"
+	(label "DTR"
 		(at 287.02 106.68 0)
 		(effects
 			(font
@@ -13168,7 +13168,7 @@
 		)
 		(uuid "d4f4d999-deba-4471-b5ba-40214443eb8a")
 	)
-	(label "DRT"
+	(label "DTR"
 		(at 314.96 110.49 180)
 		(effects
 			(font
@@ -19774,7 +19774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 141.986 201.676 90)
 			(effects
 				(font
@@ -20437,7 +20437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 272.0848 254 0)
 			(effects
 				(font
@@ -21826,7 +21826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.5352 66.04 0)
 			(effects
 				(font
@@ -22983,7 +22983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 190.5 255.27 0)
 			(effects
 				(font
