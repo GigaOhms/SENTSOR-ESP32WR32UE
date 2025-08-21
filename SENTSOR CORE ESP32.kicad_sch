@@ -12718,6 +12718,16 @@
 		)
 		(uuid "68bfc653-4643-402d-8f92-cf6442f5327c")
 	)
+	(label "LDO_EN"
+		(at 49.53 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "694d6e69-2e51-4261-a0c0-655cb4e8c08d")
+	)
 	(label "SPI_MISO"
 		(at 361.95 177.8 0)
 		(effects
